@@ -15,7 +15,7 @@ nav{
   display:flex;
   justify-content: space-between;
 
-  position:fixed;
+  position:sticky;
   left:0;
   right:0;
   width:100%;
@@ -88,4 +88,19 @@ nav{
   background-color: black;
   border-bottom-color: : #FFFDFC;
 
+}
+
+.nav-demo-reel{
+  border-bottom: 4px solid #FFA624
+}
+.nav-biography{
+  border-bottom: 4px solid #FFA62400
+}
+.nav-contact-me{
+  border-bottom: 4px solid #FFA62400
+}
+
+.content-margin{
+  display:flex;
+  flex-wrap: wrap;
 }
