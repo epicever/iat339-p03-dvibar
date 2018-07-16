@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/grids.css" rel="stylesheet">
+  <link href="css/media-queries.css" rel="stylesheet">
+
+  <title>Daniel Vibar's Game FX Portfolio Style Guide</title>
+</head>
+
+    <body class="style-guide-bg">
+
+      <h1>P03 - Style Guide</h1>
+
+      <nav>
+
+        <p>
+          On this page:
+        </p>
+        <ul>
+          <li>
+            <a href="#interactive_elements">Interactive Elements</a>
+          </li>
+          <li>
+            <a href="#text_elements">Text Elements</a>
+          </li>
+          <li>
+            <a href="#combined_elements">Combined Elements</a>
+          </li>
+        </ul>
+
+
+
+      </nav>
+
+
+
+      <!-- INTERACTIVE ELEMENTS SECTION // -->
+      <section id="interactive_elements">
+        <h2>Interactive Elements</h2>
+
+        <!-- Default Button styling section -->
+        <section>
+
+          <h2>Navigation Button</h2>
+
+          <h3>CSS selector:</h3>
+          <p>.nav-menu-button</p>
+
+          <h3>Sample code:</h3>
+          <code>&lt;a href="demo-reel.html" class="nav-menu-button nav-demo-reel"&gt;Demo Reel&lt;/a&gt;</code>
+
+          <h3>Rendered element:</h3>
+          <nav>
+
+              <a class="nav-menu-button nav-demo-reel" href="demo-reel.html">Demo Reels</a>
+          </nav>
+
+        </section>
+
+        <hr>
+
+        <section>
+          <h2>In-text link</h2>
+
+          <h3>CSS selector:</h3>
+          <p>.intext-link</p>
+
+          <h3>Sample code:</h3>
+          <code>&lt;a href="#" class="intext-link"&gt;Default Link&lt;/a&gt;</code>
+
+          <h3>Rendered element:</h3>
+          <p>This is a text based link: <a class="intext-link" href="#">Default Link</a></p>
+        </section>
+
+        <hr>
+
+        <section>
+          <h2>Submit/Reset Buttons</h2>
+
+          <h3>CSS selector:</h3>
+          <p>.button-submit</p>
+
+          <h3>Sample code:</h3>
+          <code>&lt;a href="#" class="button-submit"&gt;Default Button&lt;/a&gt;</code>
+
+          <h3>Rendered element:</h3>
+          <a class="button-submit" href="#">Submit</a>
+        </section>
+
+        <hr>
+
+        <section>
+          <h2>Text Input Field</h2>
+          <h3>CSS selector:</h3>
+          <p>.text-field</p>
+
+          <h3>Sample code:</h3>
+          <code>&lt;input class="text-field" type=text name="name" value="Enter Name"&gt;&lt;/input&gt;</code>
+
+          <h3>Rendered element:</h3>
+          <input class="text-field" type=text name="name" value="Enter Name">
+        </section>
+
+      </section>
+      <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+      <hr class="section-div">
+
+      <!-- TEXT ELEMENTS SECTION // -->
+
+      <section id="text_elements">
+        <h2>Text Elements</h2>
+
+        <section>
+          <h2>Headings</h2>
+
+          <h3>CSS selector:</h3>
+          <p>h1, h2, h3</p>
+
+          <h3>Sample code:</h3>
+          <code>&lt;h3&gt;Heading 3&lt;/h3&gt;</code>
+
+          <h3>Rendered element:</h3>
+
+          <h3 class="heading">Heading 3</h3>
+
+        </section>
+
+        <hr>
+
+        <section>
+          <h2>Paragraphs</h2>
+
+          <h3>CSS selector:</h3>
+          <p>p</p>
+
+          <h3>Sample code:</h3>
+          <code>&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;</code>
+
+          <h3>Rendered element:</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </section>
+
+        <hr>
+
+        <section>
+          <h2>Bulleted Lists</h2>
+
+          <h3>CSS selector:</h3>
+          <p>ul</p>
+
+          <h3>Sample code:</h3>
+          <code>&lt;ul&gt;<br>
+                  &lt;li&gt;Item 1&lt;/li&gt;<br>
+                  &lt;li&gt;Item 2&lt;/li&gt;<br>
+                  &lt;li&gt;Item 3&lt;/li&gt;<br>
+              &lt;/ul&gt;
+          </code>
+
+          <h3>Rendered element:</h3>
+          <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ul>
+        </section>
+
+        <hr>
+
+        <section>
+          <h2>Numbered Lists</h2>
+
+          <h3>CSS selector:</h3>
+          <p>ol</p>
+
+          <h3>Sample code:</h3>
+          <code>&lt;ol&gt;<br>
+                  &lt;li&gt;Item 1&lt;/li&gt;<br>
+                  &lt;li&gt;Item 2&lt;/li&gt;<br>
+                  &lt;li&gt;Item 3&lt;/li&gt;<br>
+              &lt;/ol&gt;
+          </code>
+
+          <h3>Rendered element:</h3>
+          <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ol>
+        </section>
+
+      </section>
+      <!-- // TEXT ELEMENTS SECTION -->
+
+      <hr class="section-div">
+
+      <!-- COMBINED ELEMENTS SECTION // -->
+
+      <section id="combined_elements">
+        <h2>Combined Elements</h2>
+
+        <section>
+          <h2>Main Navigation</h2>
+
+          <h3>CSS selector:</h3>
+          <p>nav</p>
+
+          <h3>Sample code:</h3>
+          <code>&lt;nav&gt;...&lt;/nav&gt;</code>
+
+          <h3>Rendered element:</h3>
+          <nav>
+            <div class="nav-element nav-logo">
+
+              <a id="logo-heading" class="nav-logo" href="#mainpage">
+                <h1 class="logo-text">Daniel Vibar</h1>
+              </a>
+
+              <p class="logo-text">
+                <a id="logo-caption" class="nav-logo" href="index.html">Game FX Artist</a>
+              </p>
+
+            </div>
+
+            <div class="nav-element nav-menu">
+              <a class="nav-menu-button nav-demo-reel" href="demo-reel.html">Demo Reels</a>
+              <a class="nav-menu-button nav-biography" href="biography.html">Biography</a>
+              <a class="nav-menu-button nav-contact-me" href="contact-me.html">Contact Me</a>
+            </div>
+          </nav>
+
+        </section>
+
+        <hr>
+
+        
+
+      </section>
+      <!-- // COMBINED ELEMENTS SECTION -->
+
+
+
+
+
+
+  </body>
+</html>
