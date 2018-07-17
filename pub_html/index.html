@@ -1,3 +1,13 @@
+<!--
+
+Legend
+
+rock_spike_wave = fx01
+
+-->
+
+
+
 <!doctype html>
 <html>
   <head>
@@ -9,36 +19,90 @@
     <link href="css/grids.css" rel="stylesheet">
     <link href="css/media-queries.css" rel="stylesheet">
 
-    <title>Daniel's Portfolio</title>
+    <title>Daniel Vibar's Game FX Portfolio</title>
   </head>
 
   <body>
+      <nav>
+        <div class="nav-element nav-logo">
 
-    <nav>
-      <div class="nav-element nav-logo">
+          <a id="logo-heading" class="nav-logo" href="#mainpage">
+            <h1 class="logo-text">Daniel Vibar</h1>
+          </a>
 
-          <h1 class="logo-text logo-heading">
-            <a class="nav-logo" href="index.html">Game FX Portfolio</a>
-          </h1>
-          <p class="logo-text logo-caption">
-            <a class="nav-logo" href="index.html">Daniel Vibar</a>
+          <p class="logo-text">
+            <a id="logo-caption" class="nav-logo" href="index.html">Game FX Artist</a>
           </p>
 
+        </div>
+
+        <div class="nav-element nav-menu">
+          <a class="nav-menu-button nav-demo-reel" href="demo-reel.html">Demo Reels</a>
+          <a class="nav-menu-button nav-biography" href="biography.html">Biography</a>
+          <a class="nav-menu-button nav-contact-me" href="contact-me.html">Contact Me</a>
+        </div>
+      </nav>
+
+      <div class="content-margin">
+
+        <section id="mainpage">
+          <h2 class="hero-header hero-text hero-text-heading">Recent Projects</h2>
+
+            <div class="project-list">
+
+              <a class="fx01 mp-proj-button project-listing" href="#fx01-page">
+                <div class="project-img-container">
+                  <img class="project-listing-img" src="imgs/rock-spike-wave-small.png" alt="image of my project">
+                </div>
+                <p>
+                  <h3 class="project-listing-heading">Rock Spike Wave</h3>
+                </p>
+              </a>
+
+              <a class="fx02 mp-proj-button project-listing" href="fx02-page.html">
+                <div class="project-img-container">
+                  <img class="project-listing-img" src="imgs/rock-spike-wave-small.png" alt="image of my project">
+                </div>
+                <p>
+                  <h3 class="project-listing-heading">Rock Spike Wave</h3>
+                </p>
+              </a>
+
+            </div>
+
+          </div>
+        </section>
+
+        <section id="fx01-page" class="fadeOut hidden">
+          <h2 class="hero-header hero-text hero-text-heading">Recent Projects</h2>
+
+            <div class="project-list">
+
+              <a  class="project-listing" href="#">
+                <div class="project-img-container">
+                  <img class="project-listing-img" src="imgs/rock-spike-wave-small.png" alt="image of my project">
+                </div>
+                <p>
+                  <h3 class="project-listing-heading">Rock Spike Wave</h3>
+                </p>
+              </a>
+
+            </div>
+
+          </div>
+        </section>
+
+        <footer>
+          <div>
+            <a class="footer-link" href="style-guide.html">Style Guide</a>
+          </div>
+        </footer>
+
+
       </div>
 
-      <div class="nav-element nav-menu">
-        <a class="nav-menu-button nav-demo-reel" href="demo-reel.html">Demo Reels</a>
-        <a class="nav-menu-button nav-biography" href="biography.html">Biography</a>
-        <a class="nav-menu-button nav-contact-me" href="contact-me.html">Contact Me</a>
-      </div>
-    </nav>
+      <script src="js/main.js"></script>
 
-    <div class="content-margin">
-      <div class="hero-header">
-        <h2>This is a heading.</h2>
-        <p class="heading-caption">This is a heading caption</p>
-      </div>
+    </body>
 
-    </div>
-
-  </body>
+  </html>
