@@ -12,12 +12,17 @@ var fadeOutDelay = 200;
 var fadeInDelay = 200;
 
 var mainpage_content = document.querySelector("#mainpage");
+var biography_content = document.querySelector("#biography-content");
+var contactme_content = document.querySelector("#contactme-content");
 var fx01_content = document.querySelector("#fx01-page");
 
 //Nav references
 
 var logo_heading_button = document.querySelector("#logo-heading");
 var logo_caption_button = document.querySelector("#logo-caption");
+
+var nav_biography_button = document.querySelector(".nav-biography");
+var nav_contactme_button = document.querySelector(".nav-contactme");
 
 //Thumbnail buttons for the projects on the mainpage
 var fx01_mp_button = document.querySelector(".mp-proj-button");
@@ -77,5 +82,7 @@ function changeContent(targPage){
 }
 
 addButton(logo_heading_button,mainpage_content);
+addButton(nav_biography_button,biography_content);
+addButton(nav_contactme_button,contactme_content);
 
 addButton(fx01_mp_button,fx01_content);

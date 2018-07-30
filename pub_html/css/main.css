@@ -10,6 +10,15 @@ body{
   color: #FFFDFC;
 }
 
+h2{
+  text-decoration: underline;
+}
+
+img{
+  width:100%;
+  height: auto;
+}
+
 /* Nav Styling */
 
 nav{
@@ -110,6 +119,11 @@ section{
 
 .content-margin{
 
+}
+
+.section-body{
+  margin-top:2rem;
+  display:flex;
 }
 
 
@@ -216,13 +230,14 @@ li{
   color: #E8A78C;
 }
 
-.button-submit{
-  display: inline-block;
-  border:4px solid #FFFDFC;
+.button{
+  display: inline;
+  border:2px solid #FFFDFC;
   padding:1rem;
   padding-left:2rem;
   padding-right:2rem;
   color: #FFFDFC;
+  background-color: black;
   text-decoration: none;
 }
 
@@ -250,4 +265,70 @@ li{
 
 .hidden{
   display: none;
+}
+
+/** contact page styling **/
+
+.content-body{
+  display:flex;
+  justify-content: center;
+  margin:2rem;
+}
+
+form{
+  display: flex;
+  width:50%;
+  flex-direction: column;
+}
+
+
+
+.form-field{
+  margin-bottom:2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-msg-box-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.form-msg-box{
+  width:100%;
+  height:5rem;
+}
+
+.form-button-container{
+
+}
+
+/** project details styling **/
+
+.project-details{
+  margin-top:2rem;
+}
+
+.proj-detail-section{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 auto;
+}
+
+.proj-detail-text{
+  margin-left: 2rem;
+  width:80%;
+
+}
+
+.proj-detail-img-cont{
+  margin-left: 2rem;
+  display:flex;
+  justify-content: flex-end;
+}
+
+.proj-detail-img{
+
+  width:80%;
 }

@@ -31,15 +31,16 @@ rock_spike_wave = fx01
           </a>
 
           <p class="logo-text">
-            <a id="logo-caption" class="nav-logo" href="index.html">Game FX Artist</a>
+            <a id="logo-caption" class="nav-logo" href="#mainpage">Game FX Artist</a>
           </p>
 
         </div>
 
         <div class="nav-element nav-menu">
-          <a class="nav-menu-button nav-demo-reel" href="demo-reel.html">Demo Reels</a>
-          <a class="nav-menu-button nav-biography" href="biography.html">Biography</a>
-          <a class="nav-menu-button nav-contact-me" href="contact-me.html">Contact Me</a>
+          <!--<a class="nav-menu-button nav-demo-reel" href="#demoreel-content">Demo Reels</a>-->
+          <a class="nav-menu-button nav-projectgallery" href="#projectgallery-content">Projects</a>
+          <a class="nav-menu-button nav-biography" href="#biography-content">Biography</a>
+          <a class="nav-menu-button nav-contactme" href="#contactme-content">Contact Me</a>
         </div>
       </nav>
 
@@ -52,19 +53,19 @@ rock_spike_wave = fx01
 
               <a class="fx01 mp-proj-button project-listing" href="#fx01-page">
                 <div class="project-img-container">
-                  <img class="project-listing-img" src="imgs/rock-spike-wave-small.png" alt="image of my project">
+                  <img class="project-listing-img" src="imgs/fx/01/fx01-gallery.png" alt="image of my project">
                 </div>
                 <p>
-                  <h3 class="project-listing-heading">Rock Spike Wave</h3>
+                  <h3 class="project-listing-heading">Sword Summoning</h3>
                 </p>
               </a>
 
               <a class="fx02 mp-proj-button project-listing" href="fx02-page.html">
                 <div class="project-img-container">
-                  <img class="project-listing-img" src="imgs/rock-spike-wave-small.png" alt="image of my project">
+                  <img class="project-listing-img" src="imgs/fx/02/fx02-gallery.png" alt="image of my project">
                 </div>
                 <p>
-                  <h3 class="project-listing-heading">Rock Spike Wave</h3>
+                  <h3 class="project-listing-heading">Energy Slash Wave</h3>
                 </p>
               </a>
 
@@ -73,23 +74,155 @@ rock_spike_wave = fx01
           </div>
         </section>
 
-        <section id="fx01-page" class="fadeOut hidden">
-          <h2 class="hero-header hero-text hero-text-heading">Recent Projects</h2>
+        <section id="biography-content" class="fadeOut hidden">
+          <h2 class="hero-header hero-text hero-text-heading">About Myself</h2>
 
-            <div class="project-list">
+          <div class="section-body">
 
-              <a  class="project-listing" href="#">
-                <div class="project-img-container">
-                  <img class="project-listing-img" src="imgs/rock-spike-wave-small.png" alt="image of my project">
+            <div class="col-1-2">
+              <div class="left-content">
+                <div class="proj-detail-img-cont">
+                  <img class="project-detail-img" src="http://kiwilandingpad.com/wp-content/uploads/2014/05/avatar-placeholder.png">
                 </div>
-                <p>
-                  <h3 class="project-listing-heading">Rock Spike Wave</h3>
+              </div>
+            </div>
+
+            <div class="col-1-2">
+
+              <div class="right-content">
+                <p class="proj-detail-text">
+                  An aspiring game developer who specializes in game effects. I was interested in games since the first Playstation; playing titles like Crash Bandicoot and Twisted Metal. The worlds that the games took me through we’re all so different but gave me the same great sense of satisfaction after playing them. For me, the spectacular explosions and particles made the gameplay so much more exciting and impactful and for good reason. The artists had a great sense of how the characteristics of the world could be expressed in such short, concise, and visual ways; which is what I try to express through my own work.
                 </p>
-              </a>
+              </div>
 
             </div>
 
           </div>
+
+        </section>
+
+        <section id="contactme-content" class="fadeOut hidden">
+          <h2 class="hero-header hero-text hero-text-heading">Contact Me</h2>
+
+          <div class="content-body">
+
+            <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+
+              <div class="form-field">
+                <label for="name">Name: </label>
+                <input type="text" name="name">
+              </div>
+
+              <div class="form-field">
+                <label for="name">Email: </label>
+                <input type="text" name="mail">
+              </div>
+
+              <div class="form-field form-msg-box-container">
+                <label for="name">Message: </label><br>
+                <input class="form-msg-box" type="textarea" name="message" size="50">
+              </div>
+
+              <div class="form-button-container">
+                <input class="button" type="submit" value="Send">
+                <input class="button" type="reset" value="Clear Form">
+              </div>
+            </form>
+
+          </div>
+
+        </section>
+
+        <section id="fx01-page" class="fadeOut hidden">
+          <h2 class="hero-header hero-text hero-text-heading">Sword Summoning</h2>
+
+          <div class="project-detail">
+
+            <div class="proj-detail-section">
+              <div class="col-1-2">
+                <div class="proj-detail-img-cont">
+                  <img class="proj-detail-img" src="imgs/fx/01/fx01-gallery.png">
+                </div>
+              </div>
+
+              <div class="col-1-2">
+                <p class="proj-detail-text">
+                  This effect was designed for an attack ability that summons a sword that would fly towards the target after being created. To make this effect I needed to make use of reference images, adapted animation principles, and a few tricks within the UE4 particle editor.
+                </p>
+
+                <p>
+
+                </p>
+
+              </div>
+            </div>
+
+            <div class="proj-detail-section">
+              <div class="col-1-2 ">
+                <div class="proj-detail-img-cont">
+                  <img class="proj-detail-img" src="imgs/fx/01/reference-images.png">
+                </div>
+              </div>
+
+              <div class="col-1-2">
+                <p class="proj-detail-text">
+                  The assets I would need gather included the texture alpha of the magic circle and halo ring, as well as a sword mesh. The sword mesh was provided by a member of my team for project this was for and so what was left for me were the texture alphas.
+                </p>
+                <br>
+                <p class="proj-detail-text">
+                  So I started with the magic circle by gathering reference images and analyzing different types that I would come across. The common elements that I would see in most magic circles are basic geometric shapes like stars and circles, radial patterns, symbols, and text that is wrapped radially. With that in mind, I constructed a magic circle and afterwards made a simple halo ring alpha.
+                </p>
+
+              </div>
+            </div>
+
+            <div class="proj-detail-section">
+              <div class="col-1-2 ">
+                <div class="proj-detail-img-cont">
+                  <img class="proj-detail-img" src="imgs/fx/01/instantiation.gif">
+                </div>
+              </div>
+
+              <div class="col-1-2">
+                <p class="proj-detail-text">
+                  Putting these elements together into the particle editor was a trial and error process to get things to flow just right. However, there were two major stages of the effect that I used to base the entire effect around; instantiation, maintain, and end.
+                </p>
+                <br>
+                <p class="proj-detail-text">
+                  I used these principles to inform the player that the attack when the attack is starting and when the attack was going to be sent towards them.
+                </p>
+                <br>
+                <p class="proj-detail-text">
+                  The instantiation of the effect included the halo ring to show that initial burst of energy from summoning the sword. Again, this was to let the player know that the attack started.
+                </p>
+
+              </div>
+            </div>
+
+            <div class="proj-detail-section">
+              <div class="col-1-2 ">
+                <div class="proj-detail-img-cont">
+                  <img class="proj-detail-img" src="imgs/fx/01/maintain-end.gif">
+                </div>
+              </div>
+
+              <div class="col-1-2">
+                <p class="proj-detail-text">
+                  To show the progression of the effect from beginning of summoning to the end before it flies toward player I used the magic circle and what I like to call a energy particle gatherer. The magic circle would increase in glowing intensity and then fade to show that the attack is almost ready. The energy particle gatherer would follow shortly after that and disappear to show the attack is done and will attack shortly.
+                </p>
+                <br>
+                <p class="proj-detail-text">
+                  The effect was really fun for me to make as it was inspired by one of my favorite animes Fate Stay Night where the character projects thousands of swords to attack his enemy with. Creating my own version of it was challenging as it was the first time I started using reference images instead of using an alpha that was already created. The experience was really rewarding and it really gave me some thought as to how I could improve my iteration process and workflow for my future work.
+                </p>
+
+
+              </div>
+            </div>
+
+
+
+          </div>
+
         </section>
 
         <footer>
