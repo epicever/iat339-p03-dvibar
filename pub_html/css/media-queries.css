@@ -1,8 +1,36 @@
+
+
 @media only screen and (max-width: 700px) {
     form{
       width:100%;
     }
 }
+
+@media only screen and (max-width: 650px) {
+    .col-1-2{
+      width:100%;
+    }
+
+    .row{
+      display: block;
+    }
+
+    .left-column{
+      margin-right: 0;
+      display:flex;
+
+      justify-content: flex-end;
+    }
+    
+    .right-column{
+      margin-top: 2rem;
+      margin-left: 0;
+
+    }
+
+
+}
+
 @media only screen and (max-width: 525px) {
 
     nav{
@@ -17,7 +45,5 @@
       justify-content: space-between;
     }
 
-    .col-1-2{
-      width:90%;
-    }
+
 }

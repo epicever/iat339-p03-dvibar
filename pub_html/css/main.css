@@ -118,7 +118,9 @@ section{
 /* body styling */
 
 .content-margin{
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .section-body{
@@ -309,26 +311,29 @@ form{
   margin-top:2rem;
 }
 
-.proj-detail-section{
-  margin-top: 2rem;
+.row{
+  margin: 2rem 3% 0rem 3%;
   display: flex;
-  flex-direction: row;
-  flex: 1 1 auto;
 }
 
-.proj-detail-text{
-  margin-left: 2rem;
-  width:80%;
+.right-column{
+  margin-left: 1rem;
 
 }
 
-.proj-detail-img-cont{
-  margin-left: 2rem;
+.left-column{
+  margin-right: 1rem;
   display:flex;
+
   justify-content: flex-end;
 }
 
-.proj-detail-img{
+.proj-detail-img-cont{
+  display: flex;
+  flex:0 1 100%;
+}
 
-  width:80%;
+.proj-detail-img{
+  width:100%;
+  height:100%;
 }

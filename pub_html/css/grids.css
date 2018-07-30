@@ -1,7 +1,8 @@
 .col-1-2{
-  width:44%;
+  width: 58%;
 }
 
 .col-2-2{
-  width:100%;
+  display:flex;
+  flex: 1 1 100%;
 }
