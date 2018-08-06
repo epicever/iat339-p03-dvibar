@@ -11,7 +11,7 @@ body{
 }
 
 h2{
-  text-decoration: underline;
+
 }
 
 img{
@@ -118,14 +118,11 @@ section{
 /* body styling */
 
 .content-margin{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
 }
 
 .section-body{
   margin-top:2rem;
-  display:flex;
 }
 
 
@@ -233,7 +230,7 @@ li{
 }
 
 .button{
-  display: inline;
+  display: inline-block;
   border:2px solid #FFFDFC;
   padding:1rem;
   padding-left:2rem;
@@ -336,4 +333,46 @@ form{
 .proj-detail-img{
   width:100%;
   height:100%;
+}
+
+/*footer styling*/
+
+footer{
+  margin-top:4rem;
+  padding: 4rem;
+  background: #cccccc;
+  height: 400px;
+}
+
+
+.footer-heading-container{
+
+  border-color: black;
+  width: 20%;
+}
+
+.footer-heading{
+  color:#222222;
+
+}
+
+.footer-link{
+
+
+  color:black;
+}
+
+.footer-link-container{
+    padding-left: 1rem;
+    margin:2rem 2rem 0 0;
+}
+#contactme-page{
+  width:100%;
+}
+
+.biography-body{
+  margin-top: 6rem;
+  margin-bottom:6rem;
+  display:flex;
+  justify-content: center;
 }

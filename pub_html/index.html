@@ -38,7 +38,7 @@ rock_spike_wave = fx01
 
         <div class="nav-element nav-menu">
           <!--<a class="nav-menu-button nav-demo-reel" href="#demoreel-content">Demo Reels</a>-->
-          <a class="nav-menu-button nav-projectgallery" href="#projectgallery-content">Projects</a>
+          <a class="nav-menu-button nav-allprojects" href="#all-projects">Projects</a>
           <a class="nav-menu-button nav-biography" href="#biography-content">Biography</a>
           <a class="nav-menu-button nav-contactme" href="#contactme-content">Contact Me</a>
         </div>
@@ -52,7 +52,7 @@ rock_spike_wave = fx01
 
             <div class="project-list">
 
-              <a class="fx01 mp-proj-button project-listing" href="#fx01-page">
+              <a id="fx01-mp-thumbnail" class="mp-proj-button project-listing" href="#fx01-page">
                 <div class="project-img-container">
                   <img class="project-listing-img" src="imgs/fx/01/fx01-gallery.png" alt="image of my project">
                 </div>
@@ -61,38 +61,55 @@ rock_spike_wave = fx01
                 </p>
               </a>
 
-              <a class="fx02 mp-proj-button project-listing" href="fx02-page.html">
+              <a id="fx02-mp-thumbnail" class="mp-proj-button project-listing" href="#fx02-page">
                 <div class="project-img-container">
                   <img class="project-listing-img" src="imgs/fx/02/fx02-gallery.png" alt="image of my project">
                 </div>
                 <p>
-                  <h3 class="project-listing-heading">Energy Slash Wave</h3>
+                  <h3 class="project-listing-heading">Sword Slash Wave</h3>
                 </p>
               </a>
 
             </div>
+        </section>
+        <section id="all-projects" class="fadeOut hidden">
 
-          </div>
+          <h2 class="hero-header hero-text hero-text-heading">All Projects</h2>
+
+            <div class="project-list">
+
+              <a id="fx01-ap-thumbnail" class="mp-proj-button project-listing" href="#fx01-page">
+                <div class="project-img-container">
+                  <img class="project-listing-img" src="imgs/fx/01/fx01-gallery.png" alt="image of my project">
+                </div>
+                <p>
+                  <h3 class="project-listing-heading">Sword Summoning</h3>
+                </p>
+              </a>
+
+              <a id="fx02-ap-thumbnail" class="mp-proj-button project-listing" href="#fx02-page">
+                <div class="project-img-container">
+                  <img class="project-listing-img" src="imgs/fx/02/fx02-gallery.png" alt="image of my project">
+                </div>
+                <p>
+                  <h3 class="project-listing-heading">Sword Slash Wave</h3>
+                </p>
+              </a>
+
+            </div>
         </section>
 
         <section id="biography-content" class="fadeOut hidden">
           <h2 class="hero-header hero-text hero-text-heading">About Myself</h2>
 
-          <div class="section-body">
+          <div class="biography-body">
 
-            <div class="row">
-            <div class="left-column col-1-2">
-                <div class="proj-detail-img-cont">
-                  <img class="project-detail-img" src="http://kiwilandingpad.com/wp-content/uploads/2014/05/avatar-placeholder.png">
-                </div>
-            </div>
 
-            <div class="right-column col-1-2">
-                <p class="proj-detail-text">
-                  An aspiring game developer who specializes in game effects. I was interested in games since the first Playstation; playing titles like Crash Bandicoot and Twisted Metal. The worlds that the games took me through we’re all so different but gave me the same great sense of satisfaction after playing them. For me, the spectacular explosions and particles made the gameplay so much more exciting and impactful and for good reason. The artists had a great sense of how the characteristics of the world could be expressed in such short, concise, and visual ways; which is what I try to express through my own work.
-                </p>
+              <div class="right-column col-1-2">
+                  <p class="proj-detail-text">
+                    An aspiring game developer who specializes in game effects. I was interested in games since the first Playstation; playing titles like Crash Bandicoot and Twisted Metal. The worlds that the games took me through we’re all so different but gave me the same great sense of satisfaction after playing them. For me, the spectacular explosions and particles made the gameplay so much more exciting and impactful and for good reason. The artists had a great sense of how the characteristics of the world could be expressed in such short, concise, and visual ways; which is what I try to express through my own work.
+                  </p>
               </div>
-          </div>
         </div>
 
         </section>
@@ -220,9 +237,139 @@ rock_spike_wave = fx01
 
 
         </section>
+        <section id="fx02-page" class="fadeOut hidden">
+          <h2 class="hero-header hero-text hero-text-heading">Sword Slash Wave</h2>
+
+
+
+            <div class="row">
+              <div class="left-column col-1-2">
+                <div class="proj-detail-img-cont">
+                  <img class="proj-detail-img" src="imgs/fx/02/fx02-gallery.png">
+                </div>
+              </div>
+
+              <div class="right-column col-1-2">
+                <p class="proj-detail-text">
+                  The sword slash wave effect was created as part of a larger full semester game project. Creating this effect had three stages which consisted of a creating the mesh, creating the texture, then finally combining the two into a particle system within Unreal Engine’s Cascade editor.
+                </p>
+
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="left-column col-1-2 ">
+                <div class="proj-detail-img-cont">
+                  <img class="proj-detail-img" src="imgs/fx/02/mesh-uv-setup.png">
+                </div>
+              </div>
+
+              <div class="right-column col-1-2">
+                <p class="proj-detail-text">
+                  I began with the model first which was simple and quick to do. I used maya and used the sphere tool to create the base of the mesh and then cut that mesh in half.
+                </p>
+                <p class="proj-detail-text">
+                  I divided that half into quarters so I can plan out my texture using the UVs and figure out the beginning and end points of the texture.
+                </p>
+
+
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="left-column col-1-2 ">
+                <div class="proj-detail-img-cont">
+                  <img class="proj-detail-img" src="imgs/fx/02/mat-alphas.png">
+                </div>
+              </div>
+
+              <div class="right-column col-1-2">
+                <p class="proj-detail-text">
+                  For the material I went looking for images of rocks that would give my effect more broken up and disrupted feel. To breathe more life into the effect I also created a cloud texture that I would use to multiply on top of the other textures I had. For the base of the wave effect, I masked out a shape that was like a jagged mountain and applied multiple versions of that on top of each other along with a blur and cloud effect to soften up the edges.
+                </p>
+                <br>
+                <p class="proj-detail-text">
+                  The effect was really fun for me to make as it was inspired by one of my favorite animes Fate Stay Night where the character projects thousands of swords to attack his enemy with. Creating my own version of it was challenging as it was the first time I started using reference images instead of using an alpha that was already created. The experience was really rewarding and it really gave me some thought as to how I could improve my iteration process and workflow for my future work.
+                </p>
+
+
+              </div>
+            </div>
+            <div class="row">
+              <div class="left-column col-1-2 ">
+                <div class="proj-detail-img-cont">
+                  <img class="proj-detail-img" src="imgs/fx/02/mesh-uv.png">
+                </div>
+              </div>
+
+              <div class="right-column col-1-2">
+                <p class="proj-detail-text">
+                  Taking each of those textures I combined them into a single image through placing their alphas on their respective RGB channels for file efficiency.
+                </p>
+
+
+
+              </div>
+            </div>
+            <div class="row">
+              <div class="left-column col-1-2 ">
+                <div class="proj-detail-img-cont">
+                  <img class="proj-detail-img" src="imgs/fx/02/mesh-with-mat.png">
+                </div>
+              </div>
+
+              <div class="right-column col-1-2">
+                  <p class="proj-detail-text">
+                    I brought the finished texture back into Maya and applied it to the mesh I made to double check that everything appeared as it should and if I should make any changes to the UVs or texture.
+                  </p>
+
+              </div>
+            </div>
+            <div class="row">
+              <div class="left-column col-1-2 ">
+                <div class="proj-detail-img-cont">
+                  <img class="proj-detail-img" src="imgs/fx/02/ue4-mat-fresnel.png">
+                </div>
+              </div>
+
+              <div class="right-column col-1-2">
+                  <p class="proj-detail-text">
+                    The assets were then taken into Unreal Engine at this point and I started creating the material using UE4’s visual material editor. I separated the channels and added panners to my rock and cloud texture and multiplied those together to give the illusion of energy movement. After combining it with the base energy tail, I applied a fresnel effect to control the falloff of the wave. This was to make the effect look like it dissipates more towards the end of the tail of the effect.
+                  </p>
+
+              </div>
+            </div>
+            <div class="row">
+              <div class="left-column col-1-2 ">
+                <div class="proj-detail-img-cont">
+                  <img class="proj-detail-img" src="imgs/fx/02/ue4-particle-system.gif">
+                </div>
+              </div>
+
+              <div class="right-column col-1-2">
+                  <p class="proj-detail-text">
+                    The last step was combining the mesh with the new material in a particle system and applying color and tweaking the parameters of the particle system until I was satisfied.
+                  </p>
+
+              </div>
+            </div>
+          </div>
+
+        </section>
 
         <footer>
-          <div>
+          <div class="nav-element nav-logo footer-heading-container">
+
+            <a  class="nav-logo" href="#mainpage">
+              <h1 class="logo-text footer-heading">Daniel Vibar</h1>
+            </a>
+
+            <p class="logo-text">
+              <a  class="nav-logo footer-heading" href="#mainpage">Game FX Artist</a>
+            </p>
+
+          </div>
+          <div class="footer-link-container">
             <a class="footer-link" href="style-guide.html">Style Guide</a>
           </div>
         </footer>
